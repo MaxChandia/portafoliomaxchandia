@@ -3,7 +3,7 @@ import './portfolio.css';
 
 function App() {
   const [slide, setSlide] = useState(0);
-  const [english, setEnglish] = useState('');
+
 
   const handleSlidePrev = () => {
     setSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));
@@ -13,9 +13,7 @@ function App() {
     setSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
   };
 
-  const handleEnglish = () => {
 
-  }
   
   const slides =[{
     id: "1",
@@ -26,7 +24,14 @@ function App() {
 {
     id: "2",
     src: "./images/parroquiatransfi.png",
-    url: "https://www.parroquiatransfiguracion.cl/"
+    url: "https://www.parroquiatransfiguracion.cl/",
+    alt:"parroquiatransfiguración"
+},
+{
+  id: "3",
+  src: "./images/aldhu.png",
+  url: "https://www.figma.com/proto/kl8puB1aCscPuCetHPNCbF/ALDHU-ver-Escritorio?node-id=1-3&t=3LWgW4zZKHdi6xFu-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3",
+  alt:"aldhu"
 }] 
 
   return (
@@ -44,7 +49,7 @@ function App() {
             <a href='./CVMaximilianoChandíaFlores.pdf' download>
               <img src='./images/CV.png' alt='CVLogo'/>
             </a>
-            <img src='./images/linkedin.webp' onClick={() => window.open('https://www.linkedin.com/in/maxchandiaf/', '_blank')}></img>
+            <img src='./images/linkedin.webp' onClick={() => window.open('https://www.linkedin.com/in/maxchandiaf/', '_blank')} alt='linkedinlogo'></img>
             <img src='./images/github.png' onClick={() => window.open('https://github.com/MaxChandia', '_blank')}  alt='githubLogo'></img>
           </div>
         </div>

@@ -41,7 +41,7 @@ function App() {
             </p>
           </div>
           <div className='sectionDetailsImage'>
-            <a href='./CurriculumMaximilianoChandiaf.pdf' download>
+            <a href='./CVMaximilianoChandíaFlores.pdf' download>
               <img src='./images/CV.png' alt='CVLogo'/>
             </a>
             <img src='./images/linkedin.webp' onClick={() => window.open('https://www.linkedin.com/in/maxchandiaf/', '_blank')}></img>

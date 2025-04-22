@@ -20,6 +20,7 @@
 .sectionDetails h1 {
     color: #fdef83da;
     font-size: 32px;
+    border: 0;
     margin-top: 5px;
 }
 

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portafoliomaxchandia/static/css/main.84b6740b.css",
+    "main.js": "/portafoliomaxchandia/static/js/main.fd000b25.js",
+    "static/js/453.2eecab8d.chunk.js": "/portafoliomaxchandia/static/js/453.2eecab8d.chunk.js",
+    "index.html": "/portafoliomaxchandia/index.html",
+    "main.84b6740b.css.map": "/portafoliomaxchandia/static/css/main.84b6740b.css.map",
+    "main.fd000b25.js.map": "/portafoliomaxchandia/static/js/main.fd000b25.js.map",
+    "453.2eecab8d.chunk.js.map": "/portafoliomaxchandia/static/js/453.2eecab8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84b6740b.css",
+    "static/js/main.fd000b25.js"
+  ]
+}
